@@ -1,0 +1,76 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    margin: 0px;
+    padding: 0px;
+    background-color:rgb(177, 120, 120);
+    color: black;
+}
+
+#title{
+    background-color:rgb(177, 120, 120);
+    color: black;
+    text-align: center;
+    width: 100%;
+    margin: auto;
+}
+
+#description{
+    padding: 10px;
+    margin: 1rem 0px;
+    text-align: center;
+    line-height: 25px;
+    background-color: blanchedalmond;
+}
+
+.container{
+    width: 71%;
+    margin: auto;
+    background-color:rgb(253, 252, 250);
+    color: black;
+    padding: 15px;
+}
+.survey-form{
+    text-align: center;
+}
+
+.row-tab{
+    display: block;
+    padding-bottom: 20px;
+}
+
+.label-tab{
+    display: inline-block;
+    width: 270px;
+    text-align: right;
+    vertical-align:top;
+    background-color: blanchedalmond;
+}
+
+.input-tab{
+    display: inline-block;
+    width: 54%;
+    text-align: left;
+}
+
+.select-tab{
+    display: inline-block;
+    width: 54%;
+    text-align: left ;
+}
+
+#select-box{
+    padding: 5px 0px;
+    
+}
+
+.submit-button{
+    padding: 50px 0px;
+    padding-right: 20px;
+    text-align: right;
+}
+
+
+
+
+

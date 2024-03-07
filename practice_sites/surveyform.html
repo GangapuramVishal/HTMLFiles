@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survya Form</title>
+    <link rel="stylesheet" href="surveyform.css">
+</head>
+<body>
+    <header id="title">
+        <h1>Survey Form</h1>
+    </header>
+    <section>
+        <div class="container">
+            <div id="description">
+                <p>Let us know how we can imporve our teaching methonds in schloka academy -The virtual learning platform</p>
+            </div>
+            <form id="survey-form">
+                    <div class="row-tab">
+                        <div class="label-tab">
+                            <label for="name">Full Name: </label>
+                        </div>
+                        <div class="input-tab">
+                            <input type="text" id="name" name="name" placeholder="e.g: Bobby">
+                        </div>
+                    </div> 
+                    
+                    <div class="row-tab">
+                        <div class="label-tab">
+                            <label for="email"> Email Id: </label>
+                        </div>
+                        <div class="input-tab">
+                            <input type="email" id="email" name="email" placeholder="Bobby@gmail.com">
+                        </div>
+                    </div> 
+
+                    <div class="row-tab">
+                        <div class="label-tab">
+                            <label for="number"> Age: </label>
+                        </div>
+                        <div class="input-tab">
+                            <input type="number" id="number" name="number" placeholder="eg: 12">
+                        </div>
+                    </div>
+
+                    <div> 
+                        <div class="label-tab" >
+                            <label>which option best describes your current role?</label>
+                        </div>
+                        <div class="select-tab" >
+                            <select id="select-box">
+                                <option>Student</option>
+                                <option>Employee</option>
+                                <option>Business person</option>
+                                <option>Any others</option>
+                            </select>
+                        </div>
+                    </div> <br>
+        
+                    <div class="row-tab">
+                        <div class="label-tab">
+                            <label>Would you recommend Schloka Academy to your friend's </label>
+                        </div>
+                        <div class="input-tab">
+                            <div>
+                                <input type="radio" name="suggest" value="Definitely">
+                                <label>Definitely</label>
+                            </div>
+                            
+                            <div>
+                                <input type="radio" name="suggest" value="Maybe"><label>Maybe</label>
+                            </div>
+
+                            <div>
+                                <input type="radio" name="suggest" value="Not sure"><label>Not sure</label>  
+                            </div>
+                        </div>
+                    </div>
+        
+                    <div class="row-tab">
+                        <div class="label-tab">
+                            <label> What do you like the most in Schloka Academy</label>
+                        </div>
+                        <div class="select-tab">
+                            <select id="select-box">
+                                <option>Select an option</option>
+                                <option>Teaching</option>
+                                <option>Course Planning</option>
+                                <option>Modules</option>
+                                <option>Assignment's</option>
+                            </select>
+                        </div>
+                    </div>
+        
+                    <div class="row-tab">
+                        <div class="label-tab">
+                            <label>Things to be improved in the following courses
+                                (select all that apply)</label>   
+                        </div>
+                        <div class="input-tab">
+                            <div>
+                            <input type="checkbox" name="project" value="Font-end Development "><label>Font-End Project</label>
+                            </div>
+                            <div>
+                            <input type="checkbox" name="project" value="Back-End Development "><label>Back-End Development</label>
+                            </div>
+                            <div>
+                            <input type="checkbox" name="project" value="FullStack Development"><label>FullStack Development</label>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="submit-button">
+                        <button type="submit">submit</button>
+                    </div>
+            </form>
+        </div>   
+    </section>
+</body>
+</html>
